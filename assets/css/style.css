@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700');
+
+.navbar-brand img {
+    height: 150px;
+    
+}
+
+.navbar-brand {
+    height: 150px;
+}
+
+
+.navbar-brand h1,
+.navbar-brand img {
+    display:inline-block;
+    
+}
+
+
+.menu {
+    height:175px;
+}
+
+.menu li {
+    margin-right: 30px;
+    line-height: 90px;
+    height: 90px;
+    padding-top: 60px;
+}
+
+
+.menu li a {
+    font-family: "open sans", sans-serif;
+    color: black;
+    font-size: 24px;
+}
+
+.navbar h1 {
+    font-family: "Philosopher", sans-serif;
+    color: black;
+}
+
+
+.navbar {    
+    background: linear-gradient(gray, white);
+}
+
+.curry {
+    background-image: url(../images/curry.jpg);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    background-size: contain;
+}
+
+@media(max-width: 640px) {
+   .navbar-header {
+    height: 150px;
+}
+
+    .menu {
+        height:100px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-header {
+        height: 175px;
+    }
+    
+    .menu {
+        height:220px;
+    }
+
+    .menu li {
+    margin-right: 0;
+    }
+   
+}
+
+    
+    
+@media (min-width: 992px) and (max-width: 1366px) {
+    .navbar-header {
+        height: 175px;
+    }
+    
+ .menu {
+     height:240px;
+ }
+    
+    .menu li {
+    margin-right: 0;
+    }
+    
+}
