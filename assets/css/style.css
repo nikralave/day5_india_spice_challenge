@@ -1,38 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Philosopher:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700');
 
-.navbar-brand img {
-    height: 150px;
+.body{
+    font-family: "open sans", sans-serif;
     
 }
 
-.navbar-brand {
-    height: 150px;
-}
 
-
-.navbar-brand h1,
-.navbar-brand img {
+.navbar h1,
+.navbar img {
     display:inline-block;
-    
+     
 }
 
-
-.menu {
-    height:175px;
-}
-
-.menu li {
-    margin-right: 30px;
-    line-height: 90px;
-    height: 90px;
-    padding-top: 60px;
-}
-
-
-.menu li a {
+.navbar-default .navbar-nav>li>a {
     font-family: "open sans", sans-serif;
     color: black;
-    font-size: 24px;
+    
 }
 
 .navbar h1 {
@@ -45,54 +28,67 @@
     background: linear-gradient(gray, white);
 }
 
-.curry {
+.navbar-brand {
+    padding-bottom: 20px;
+    padding-top: 0;
+}
+
+.navbar-default {
+    padding-bottom: 10px;
+}
+
+.logo {
+    width: 40px;
+}
+
+.navbar-brand h1 {
+  font-size: 20px;  
+}
+
+.callout {
     background-image: url(../images/curry.jpg);
-    height: 600px;
-    width: 100%;
     background-repeat: no-repeat;
     color: white;
-    background-size: contain;
+    background-size: cover;
 }
 
-@media(max-width: 640px) {
-   .navbar-header {
-    height: 150px;
+figcaption {
+    text-align: center;
 }
 
-    .menu {
-        height:100px;
-    }
+.specials {
+    text-align: center;
+}
+
+.cooking {
+    max-width: 100%;
+}
+
+.spices{
+    text-align: center;
+}
+
+.about {
+    margin:10px;
+}
+
+footer {
+  background: linear-gradient(gray, white);  
 }
 
 
-@media (min-width: 768px) and (max-width: 991px) {
-    .navbar-header {
-        height: 175px;
-    }
-    
-    .menu {
-        height:220px;
-    }
-
-    .menu li {
-    margin-right: 0;
-    }
-   
+@media (min-width: 768px) {
+    .navbar-default {
+    padding-bottom: 40px;
+    font-size: 20px;
 }
 
-    
-    
-@media (min-width: 992px) and (max-width: 1366px) {
-    .navbar-header {
-        height: 175px;
-    }
-    
- .menu {
-     height:240px;
- }
-    
-    .menu li {
-    margin-right: 0;
-    }
-    
+ .navbar-default h1{
+    font-size: 40px;
+
+}
+
+ .navbar-default img{
+    font-size: 60px;
+
 }
