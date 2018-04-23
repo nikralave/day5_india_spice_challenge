@@ -2,7 +2,6 @@
 
 .body{
     font-family: "open sans", sans-serif;
-    
 }
 
 
@@ -25,7 +24,7 @@
 
 
 .navbar {    
-    background: linear-gradient(gray, white);
+    background: linear-gradient(#ffdb58, #ffffff);
 }
 
 .navbar-brand {
@@ -72,8 +71,15 @@ figcaption {
     margin:10px;
 }
 
+.story {
+    background-image: url(../images/india.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+}
+
 footer {
-  background: linear-gradient(gray, white);  
+  background: linear-gradient(#ffdb58, #ffffff); 
 }
 
 
@@ -91,4 +97,5 @@ footer {
  .navbar-default img{
     font-size: 60px;
 
+}
 }
